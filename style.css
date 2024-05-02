@@ -15,7 +15,9 @@ html{
     background-color: aqua;
   }
 }
-  
+.active{
+  color: black;
+}  
 body{
 background-image: url(большой_фон.jpg);
 background-position: center;
@@ -134,10 +136,15 @@ background-repeat: no-repeat;
 }
 @media(max-width: 620px){
   body{
-      background-image: url(маленький_фон.jpg);
+    background-image: url(маленький_фон.jpg);
   }
-}
   .nav-link:nth-child(2){
     margin: 0 !important;
   }
 }
+@media(max-width: 358px){
+  .text{
+    font-size: 13px;
+  }
+}
+  
