@@ -1,40 +1,34 @@
-    (function(d, w, c) {
-        w.ChatraID = 'iGhDBX3PuGuvfaGbW';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = 'https://call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
+(function(d, w, c) {
+    w.ChatraID = 'iGhDBX3PuGuvfaGbW';
+    var s = d.createElement('script');
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+    };
+    s.async = true;
+    s.src = 'https://call.chatra.io/chatra.js';
+    if (d.head) d.head.appendChild(s);
+})(document, window, 'Chatra');
 
-let luk1 = document.querySelector('.luk-feedback1')
+let luk = document.querySelector('.luk-feedback')
 let jes = document.querySelector('.jes-feedback')
-let luk2 = document.querySelector('.luk-feedback2')
+let rom = document.querySelector('.rom-feedback')
 
 let currentPage = location.pathname.split('/').pop();
 
-if (luk1.getAttribute("href") === currentPage) {
-    luk1.classList.add("active");
-    luk1.classList.remove("noactive");
+if (luk.getAttribute("href") === currentPage) {
+luk.classList.add("active");
 } else {
-    luk1.classList.remove("active");
-    luk1.classList.add("noactive");
+luk.classList.remove("active");
 }
 
 if (jes.getAttribute("href") === currentPage) {
-    jes.classList.add("active");
-    jes.classList.remove("noactive");
+jes.classList.add("active");
 } else {
-    jes.classList.remove("active");
-    jes.classList.add("noactive");
+jes.classList.remove("active");
 }
 
-if (luk2.getAttribute("href") === currentPage) {
-    luk2.classList.add("active");
-    luk2.classList.remove("noactive");
+if (rom.getAttribute("href") === currentPage) {
+rom.classList.add("active");
 } else {
-    luk2.classList.remove("active");
-    luk2.classList.add("noactive");
+rom.classList.remove("active");
 }
