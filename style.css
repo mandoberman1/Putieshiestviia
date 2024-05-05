@@ -7,7 +7,6 @@
   font-size: 25px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
   text-transform: uppercase;
 }
 html{
@@ -136,10 +135,15 @@ width: 100%;
   .nav-link:nth-child(2){
     margin: 0 !important;
   }
+  .one{
+    font-size: 18px;
+  }
+  .block{
+    height: 320px;
+  }
 }
 @media(max-width: 390px){
   .text{
-    font-size: 13px;
+    font-size: 10px;
   }
 }
-
