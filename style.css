@@ -122,6 +122,28 @@ width: 100%;
   color: white;
   text-decoration: none;
 }
+
+/*.button-place{
+  background-color: #f8f4ff;
+}
+
+.archive-link{
+  text-decoration: none;
+  color: white;
+  font-family:'Roboto Slab', serif;
+  border-radius: 15px;
+  width: 140px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+}*/
+
+.container-imgs{
+  background-color: white;
+}
+
 @media(max-height: 430px){
   body{
     background-image: url(большой_фон.jpg);
@@ -141,9 +163,8 @@ width: 100%;
   .block{
     height: 320px;
   }
-}
-@media(max-width: 390px){
   .text{
     font-size: 10px;
   }
 }
+
